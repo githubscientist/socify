@@ -1,0 +1,10 @@
+{
+  "name": "socify",
+  "scripts": {
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "start": "npm install --prefix server && npm start --prefix server"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
